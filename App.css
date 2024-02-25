@@ -1,0 +1,93 @@
+/* App.css */
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+/* Container */
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Input fields */
+.input-container input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    
+   
+}
+
+/* Add Product button */
+.input-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.input-container button:hover {
+    background-color: #45a049;
+}
+
+/* Product list */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+
+/* Product item */
+.product-item {
+    width: calc(33% - 20px); /* 33.33% width with 20px margin */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    align-items: center;
+    text-align: center;
+  
+    
+}
+
+/* Edit and Delete buttons */
+.product-item button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-item button.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+   
+}
+
+.product-item button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.product-item button:hover {
+    opacity: 0.8;
+    
+}
+
+h2{
+    display : flex;
+    justify-content: center;
+}
